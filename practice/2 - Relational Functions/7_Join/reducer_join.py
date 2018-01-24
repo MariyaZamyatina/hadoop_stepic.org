@@ -16,8 +16,8 @@ for line in sys.stdin:
     if lastKey and lastKey != key:
         write_result(lastKey)
 
-        H_url.clear()
-        H_query.clear()
+        H_url = list()
+        H_query = list()
 
     if set == "query":
         H_query.append(value)

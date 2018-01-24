@@ -1,5 +1,6 @@
 import sys
 
+# union A and B
 lastKey = None
 
 for line in sys.stdin:
