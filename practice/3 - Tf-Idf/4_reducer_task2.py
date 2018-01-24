@@ -15,7 +15,7 @@ for line in sys.stdin:
 
     if lastWord and lastWord != word:
         print_result(lastWord, docs)
-        docs.clear()
+        docs = list()
 
     docs.append((doc, tf))
     lastWord = word
